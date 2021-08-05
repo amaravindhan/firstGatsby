@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const AboutPage = () => {
     return (
@@ -9,6 +10,10 @@ const AboutPage = () => {
                 which I built with Gatsby. I like to eat cookies more and watch 
                 netflix and also I am interested in Investing.
             </p>
+            <StaticImage 
+                alt="cute white puppy." 
+                src="../images/puppy.jpg"
+            />
         </Layout>
     )
 }
